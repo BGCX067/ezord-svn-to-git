@@ -1,0 +1,11 @@
+# Project owners
+caohoangson@gmail.com
+nguyen.tr.hung@gmail.com
+
+# Directory instructions
+android/ Contain android source code
+db/ Contain database sql scripts
+doc/ Contain all requirements, system designs, schemas and userguides ...
+ios/ Contain ios source code
+ui/ Contain all user interface graphic design
+www/ Contain all project server apps source code

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+	>
+	
+		<Button 
+			android:id="@+id/button_back_to_cafe"  
+			android:gravity="left"
+			android:layout_width="wrap_content"            
+			android:layout_height="wrap_content"           
+			android:text="@string/order_back" 
+		/>
+	
+		<TextView  
+			android:id="@+id/title"
+			android:gravity="center_horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:text="@string/order_title"
+		/>
+		
+		<Button 
+			android:id="@+id/button_to_menu"  
+			android:gravity="right"
+			android:layout_width="wrap_content"            
+			android:layout_height="wrap_content"           
+			android:text="@string/order_menu" 
+		/>
+	
+	</LinearLayout>
+	
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:stretchColumns="1"
+	>
+	
+		<TableRow>
+		
+			<ImageView 
+				android:layout_column="0"
+				android:padding="3dip"
+			/>
+			
+			<TextView
+				android:layout_column="1"
+				android:text="item_name"
+				android:padding="3dip" 
+			/>
+			
+			<TextView
+				android:layout_column="2"
+				android:text="amount"
+				android:padding="3dip" 
+			/>
+			
+			<Button 
+				android:layout_column="3"
+				android:layout_width="wrap_content"            
+				android:layout_height="wrap_content"           
+				android:text="-" 
+			/>
+			
+			<EditText 
+				android:layout_column="4"
+				android:gravity="center_horizontal"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+			</EditText>
+			
+			<Button 
+				android:layout_column="5"
+				android:layout_width="wrap_content"            
+				android:layout_height="wrap_content"           
+				android:text="+" 
+			/>
+			
+		</TableRow>
+	
+	</TableLayout>
+	
+</LinearLayout>
+

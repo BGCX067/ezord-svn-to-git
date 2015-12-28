@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Easy Order</string>
+	<string name="login_title">Đăng nhập Easy Order</string>
+	<string name="login_button_text">Đăng nhập</string>
+	<string name="login_status_1">Đang thực hiện đăng nhập...</string>
+	<string name="login_status_2">Đăng nhập thất bại !</string>
+	
+	<string name="order_title">Order</string>
+    <string name="order_back">Back</string>
+    <string name="order_menu">Menu</string>
+	
+	<string name="menu_title">Menu</string>
+    <string name="menu_back">Order</string>
+</resources>

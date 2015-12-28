@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Easy Order</string>
+    <string name="login_title">Welcome to Easy Order</string>
+    <string name="login_button_text">Login</string>
+    <string name="login_status_1">Logging in...</string>
+    <string name="login_status_2">Login fail !</string>
+	
+	
+    <string name="order_title">Order</string>
+    <string name="order_back">Back</string>
+    <string name="order_menu">Menu</string>
+	
+	<string name="menu_title">Menu</string>
+    <string name="menu_back">Order</string>
+	
+</resources>
